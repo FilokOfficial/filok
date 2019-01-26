@@ -1,0 +1,26 @@
+[Unit]
+Description=FLK's distributed currency daemon
+After=network.target
+
+[Service]
+User=filok
+Group=filok
+
+Type=forking
+PIDFile=/var/lib/filokd/filokd.pid
+
+ExecStart=/usr/bin/filokd -daemon -pid=/var/lib/filokd/filokd.pid \
+          -conf=/etc/filok/filok.conf -datadir=/var/lib/filokd
+
+ExecStop=-/usr/bin/filok-cli -conf=/etc/filok/filok.conf \
+         -datadir=/var/lib/filokd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

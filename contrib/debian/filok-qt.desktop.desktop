@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=FLK
+Comment=FLK P2P Cryptocurrency
+Exec=filok-qt %u
+Terminal=false
+Type=Application
+Icon=filok128
+MimeType=x-scheme-handler/filok;
+Categories=Office;Finance;
+Name[en_US]=filok-qt.desktop

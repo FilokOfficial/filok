@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/filok_bg.qm</file>
+        <file alias="de">locale/filok_de.qm</file>
+        <file alias="en">locale/filok_en.qm</file>
+        <file alias="es">locale/filok_es.qm</file>
+        <file alias="fi">locale/filok_fi.qm</file>
+        <file alias="fr">locale/filok_fr.qm</file>
+        <file alias="it">locale/filok_it.qm</file>
+        <file alias="ja">locale/filok_ja.qm</file>
+        <file alias="pl">locale/filok_pl.qm</file>
+        <file alias="pt">locale/filok_pt.qm</file>
+        <file alias="ru">locale/filok_ru.qm</file>
+        <file alias="sk">locale/filok_sk.qm</file>
+        <file alias="sv">locale/filok_sv.qm</file>
+        <file alias="vi">locale/filok_vi.qm</file>
+        <file alias="zh_CN">locale/filok_zh_CN.qm</file>
+        <file alias="zh_TW">locale/filok_zh_TW.qm</file>
+    </qresource>
+</RCC>
